@@ -1,0 +1,118 @@
+nav
+{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid red; */
+    box-sizing: border-box;
+}
+nav ul
+{
+    display: flex;
+    list-style: none;
+    gap: 2vw;
+    /* border: 2px solid red; */
+}
+nav ul li a
+{
+    color: black;
+    text-decoration: none;
+}
+nav ul li:nth-child(2)
+{
+    text-decoration: underline;
+}
+nav ul li a:hover
+{
+    text-decoration: underline;
+}
+.logo
+{
+    width: 150px;
+}
+.buttons
+{
+    margin-top: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.menu_button
+{
+    padding: 10px 20px;
+    background-color: black;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    font-size: 13px;
+    margin-right: 1vw;
+    cursor: pointer;
+    box-shadow: 4px 4px 10px gray;
+}
+.menu_button:hover
+{
+    background-color: rgb(31, 31, 31);
+    box-shadow: 1px 1px 5px gray;
+}
+.book_button
+{
+    padding: 10px 20px;
+    background-color: #df6927;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+    box-shadow: 4px 4px 10px gray;
+}
+.book_button:hover
+{
+    background-color: #ba5921;
+    box-shadow: 1px 1px 5px gray;
+}
+section
+{
+    width: 100%;
+    height: 70vh;
+    box-sizing: border-box;
+    display: flex;
+}
+section .left
+{
+    width: 70%;
+    height: 100%;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 2vh 10vw;
+    position: relative;
+}
+section .left .onion
+{
+    position: absolute;
+    top: 0;
+    width: 200px;
+}
+section table
+{
+    width: 100%;
+    height: 40%;
+}
+section table img
+{
+    width: 20px;
+}
+section .right
+{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+section .right img
+{
+    width: 70%;
+}

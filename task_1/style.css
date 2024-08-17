@@ -11,10 +11,23 @@ nav ul
 {
     display: flex;
     list-style: none;
-    gap: 2vh;
+    gap: 2vw;
     /* border: 2px solid red; */
 }
-nav img
+nav ul li:nth-child(1)
+{
+    text-decoration: underline;
+}
+nav ul li a
+{
+    color: black;
+    text-decoration: none;
+}
+nav ul li a:hover
+{
+    text-decoration: underline;
+}
+.logo
 {
     width: 150px;
 }
@@ -29,6 +42,18 @@ nav img
     align-items: first baseline;
     box-sizing: border-box;
     padding: 0vw 10vw;
+}
+.section_1 .icons
+{
+    margin-top: 10vh;
+    display: flex;
+    gap: 2vw;
+}
+.section_1 .icons img
+{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
 }
 .buttons img
 {
@@ -62,4 +87,215 @@ nav img
     position: absolute;
     right: 8vh;
     z-index: 10;
+}
+.section_2
+{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    padding: 5vh 2vw;
+    background-color: #f3f4f4;
+    box-sizing: border-box;
+}
+.vec_img
+{
+    position: absolute;
+    width: 100px;
+    left: 30vw;
+    opacity: 30%;
+}
+.card_area
+{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card_area .card
+{
+    width: 20%;
+    height: 80%;
+    background-color: #e7e7e7;
+    border: 2px solid white;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 3vh 1vw;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.card_area .card:hover
+{
+    background-color: white;
+
+}
+.card img
+{
+    width: 70%;
+}
+.section_3
+{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 5vh 2vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f3f4f4;
+
+}
+.vec_2
+{
+    position: absolute;
+    top: 10vh;
+    left: 0vw;
+    opacity: 30%;
+}
+.vec_3
+{
+    position: absolute;
+    bottom: 10vh;
+    right: 5vw;
+    opacity: 30%;
+    width: 200px;
+}
+.section_3 .info
+{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.menu_button
+{
+    padding: 10px 20px;
+    background-color: black;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    font-size: 13px;
+    margin-right: 1vw;
+    cursor: pointer;
+    box-shadow: 4px 4px 10px gray;
+}
+.menu_button:hover
+{
+    background-color: rgb(31, 31, 31);
+    box-shadow: 1px 1px 5px gray;
+}
+.book_button
+{
+    padding: 10px 20px;
+    background-color: #df6927;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+    box-shadow: 4px 4px 10px gray;
+}
+.book_button:hover
+{
+    background-color: #ba5921;
+    box-shadow: 1px 1px 5px gray;
+}
+.section_4
+{
+    width: 100%;
+    height: 60vh;
+    box-sizing: border-box;
+    padding: 5vh 3vw;
+}
+.section_4 .card
+{
+    width: 70%;
+    margin: auto;
+    height: 90%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3vh 1vw;
+    box-sizing: border-box;
+    text-align: center;
+    background-image: url(./images/cta-img-bg\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.section_4 .card .input_box
+{
+    width: 70%;
+    box-sizing: border-box;
+    padding: 2vh 2vw;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+}
+.section_4 .card .input_box input
+{
+    width: 80%;
+    border: none;
+    outline: none;
+    color: black;
+}
+.section_4 .card .input_box button
+{
+    width: 20%;
+    padding: 7px 13px;
+    background-color: #df6927;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.section_4 .card .input_box button:hover
+{
+    background-color: #ba5921;
+}
+footer
+{
+    width: 100%;
+    height: 45vh;
+    box-sizing: border-box;
+    padding: 10vh 5vw;
+    display: flex;
+    gap: 2vw;
+}
+footer .left
+{
+    width: 40%;
+    height: 100%;
+}
+footer .left table
+{
+    /* border: 2px solid red; */
+    width: 100%;
+    text-align: left;
+}
+footer .right
+{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+footer .right table
+{
+    width: 100%;
+    text-align: left;
+}
+.follow_icons
+{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
 }
